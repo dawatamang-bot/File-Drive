@@ -28,7 +28,9 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["./src/*"]
-    }
+    },
+    /* TypeScript 6+ deprecations */
+    "ignoreDeprecations": "6.0"
   },
   "include": [
     "next-env.d.ts",
