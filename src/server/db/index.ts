@@ -22,7 +22,9 @@ const conn =
     user: env.SINGLESTORE_USER,
     password: env.SINGLESTORE_PASS,
     database: env.SINGLESTORE_DB_NAME,
-    ssl: {},
+    ssl: {
+      rejectUnauthorized: false,
+    },
     maxIdle: 0,
   });
 
