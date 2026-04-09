@@ -14,7 +14,7 @@ export default {
     port: Number(env.SINGLESTORE_PORT),
 
     ssl: {
-      rejectUnauthorized: false,
+      rejectUnauthorized: false, // needed for SingleStore cloud
     },
   },
 } satisfies Config;

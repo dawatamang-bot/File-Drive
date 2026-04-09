@@ -34,7 +34,6 @@ export const env = createEnv({
     SINGLESTORE_USER: process.env.SINGLESTORE_USER,
     SINGLESTORE_PORT: process.env.SINGLESTORE_PORT,
     SINGLESTORE_HOST: process.env.SINGLESTORE_HOST,
-    SINGLESTORE_PASS: process.env.SINGLESTORE_PASS,
     SINGLESTORE_DB_NAME: process.env.SINGLESTORE_DB_NAME,
   },
   /**
