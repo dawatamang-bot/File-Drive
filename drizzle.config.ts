@@ -12,9 +12,6 @@ export default {
     password: env.SINGLESTORE_PASS,
     database: env.SINGLESTORE_DB_NAME,
     port: Number(env.SINGLESTORE_PORT),
-
-    ssl: {
-      rejectUnauthorized: false, // needed for SingleStore cloud
-    },
+    ssl: { rejectUnauthorized: false },
   },
 } satisfies Config;
